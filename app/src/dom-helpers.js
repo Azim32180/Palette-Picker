@@ -164,6 +164,8 @@ const createPalette = (event) => {
 
   // Calling the function tp update the UI with the newly generated palettes
   createNewPalette(newPalette);
+
+  form.reset();
 };
 
 form.addEventListener("submit", createPalette);
